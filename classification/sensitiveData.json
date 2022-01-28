@@ -1,0 +1,11 @@
+{
+  "entity": {
+    "typeName": "DataSet",
+    "attributes": {
+      "owner": "Krishna Maj",
+      "qualifiedName": "/sales/21/sensitive_data_201112312",
+      "description": "sensitive file",
+      "name": "sensitive_data_201112312.txt"
+    }
+  }
+}

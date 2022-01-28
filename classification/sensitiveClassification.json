@@ -1,0 +1,9 @@
+{
+  "classificationDefs": [
+    {
+      "category": "CLASSIFICATION",
+      "name": "sensitive",
+      "description": "Represent a sensitive data"
+    }
+  ]
+}

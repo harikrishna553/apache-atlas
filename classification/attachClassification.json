@@ -1,0 +1,5 @@
+[ {
+  "propagate" : true,
+  "removePropagationsOnEntityDelete" : true,
+  "typeName" : "sensitive"
+} ]
