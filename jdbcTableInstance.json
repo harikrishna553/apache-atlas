@@ -1,0 +1,70 @@
+{
+  "referredEntities": {
+    "-2": {
+      "guid": "-2",
+      "typeName": "jdbc_column",
+      "attributes": {
+        "displayName": "product sales information",
+        "name": "sales",
+        "qualifiedName": "abc.net-warehouse-products-product-sales",
+        "dataType": "string",
+        "table": {
+          "guid": "-1",
+          "typeName": "jdbc_table"
+        }
+      }
+    },
+    "-3": {
+      "guid": "-3",
+      "typeName": "jdbc_column",
+      "attributes": {
+        "displayName": "product_category",
+        "name": "product_category",
+        "qualifiedName": "abc.net-warehouse-products-product-category",
+        "dataType": "string",
+        "table": {
+          "guid": "-1",
+          "typeName": "jdbc_table"
+        }
+      }
+    },
+    "-4": {
+      "typeName": "jdbc_column",
+      "guid": "-4",
+      "attributes": {
+        "displayName": "product_id",
+        "name": "product_id",
+        "qualifiedName": "abc.net-warehouse-products-product-id",
+        "dataType": "int",
+        "table": {
+          "guid": "-1",
+          "typeName": "jdbc_table"
+        }
+      }
+    }
+  },
+  "entity": {
+    "typeName": "jdbc_table",
+    "guid": "-1",
+    "attributes": {
+      "owner": "Ram Majety",
+      "qualifiedName": "abc.net-warehouse-products",
+      "description": "Products MySQL Table",
+      "name": "products",
+      "columns": [
+        {
+          "typeName": "jdbc_column",
+          "guid": "-2"
+        },
+        {
+          "typeName": "jdbc_column",
+          "guid": "-3"
+        },
+        {
+          "typeName": "jdbc_column",
+          "guid": "-4"
+        }
+      ]
+    }
+  }
+}

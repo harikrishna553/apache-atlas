@@ -1,0 +1,29 @@
+{
+  "entityDefs": [
+    {
+      "category": "ENTITY",
+      "name": "jdbc_column",
+      "description": "Represent a RDBMS Column",
+      "attributeDefs": [
+        {
+          "name": "dataType",
+          "typeName": "string",
+          "isOptional": true,
+          "cardinality": "SINGLE",
+          "valuesMinCount": 0,
+          "valuesMaxCount": 1,
+          "isUnique": false,
+          "isIndexable": false,
+          "includeInNotification": false,
+          "searchWeight": -1
+        }
+      ],
+      "superTypes": [
+        "DataSet"
+      ],
+      "subTypes": [],
+      "relationshipAttributeDefs": [],
+      "businessAttributeDefs": {}
+    }
+  ]
+}

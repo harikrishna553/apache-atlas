@@ -1,0 +1,14 @@
+{
+  "entity": {
+    "typeName": "jdbc_db",
+    "attributes": {
+      "owner": "Krishna Gurram",
+      "ownedBy": "Platforms team",
+      "createTime": 1643363556,
+      "qualifiedName": "abc.net:1234/warehouse",
+      "displayName": "warehouse database",
+      "name": "warehouse",
+      "description": "warehouse database in MySQL"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "relationshipDefs": [
+    {
+      "category": "RELATIONSHIP",
+      "name": "jdbc_table_to_column",
+      "description": "Specifies the relationship between a RDBMS Table to RDBMS Columns",
+      "typeVersion": "1.0",
+      "attributeDefs": [],
+      "relationshipCategory": "COMPOSITION",
+      "propagateTags": "NONE",
+      "endDef1": {
+        "type": "jdbc_table",
+        "name": "columns",
+        "isContainer": true,
+        "cardinality": "SET",
+        "isLegacyAttribute": false
+      },
+      "endDef2": {
+        "type": "jdbc_column",
+        "name": "table",
+        "isContainer": false,
+        "cardinality": "SINGLE",
+        "isLegacyAttribute": false
+      }
+    }
+  ]
+}

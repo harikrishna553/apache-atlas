@@ -1,0 +1,13 @@
+{
+  "typeName": "jdbc_db_to_table",
+  "end1": {
+    "guid": "ccf28d22-f3e6-46a0-8de6-355f697da2cf",
+    "typeName": "jdbc_table"
+  },
+  "end2": {
+    "guid": "b11dd53c-1c5c-4bf7-9513-7962e7ffccd2",
+    "typeName": "jdbc_db"
+  },
+  "label": "rel-between-db-table",
+  "propagateTags": "NONE"
+}

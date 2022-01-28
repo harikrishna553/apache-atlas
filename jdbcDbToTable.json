@@ -1,0 +1,26 @@
+{
+  "relationshipDefs": [
+    {
+      "category": "RELATIONSHIP",
+      "name": "jdbc_db_to_table",
+      "description": "Specifies the relationship between RDBMS Table to RDBMS Database",
+      "attributeDefs": [],
+      "relationshipCategory": "AGGREGATION",
+      "propagateTags": "NONE",
+      "endDef1": {
+        "type": "jdbc_table",
+        "name": "db",
+        "isContainer": false,
+        "cardinality": "SINGLE",
+        "isLegacyAttribute": false
+      },
+      "endDef2": {
+        "type": "jdbc_db",
+        "name": "tables",
+        "isContainer": true,
+        "cardinality": "SET",
+        "isLegacyAttribute": false
+      }
+    }
+  ]
+}
