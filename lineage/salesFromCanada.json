@@ -1,0 +1,12 @@
+{
+  "entity": {
+    "typeName": "DataSet",
+    "attributes": {
+      "owner": "Krishna Maj",
+      "qualifiedName": "DataSet_Canada_sales",
+      "description": "sales_from_Canada.txt",
+      "name": "sales_from_Canada.txt"
+    }
+  }
+}
+

@@ -1,0 +1,12 @@
+{
+  "entity": {
+    "typeName": "DataSet",
+    "attributes": {
+      "owner": "Krishna Maj",
+      "qualifiedName": "DataSet_profit_Canada",
+      "description": "profit in Canada",
+      "name": "profit_in_Canada.txt"
+    }
+  }
+}
+

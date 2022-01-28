@@ -1,0 +1,12 @@
+{
+  "entity": {
+    "typeName": "DataSet",
+    "attributes": {
+      "owner": "Krishna Maj",
+      "qualifiedName": "DataSet_Germany_sales",
+      "description": "sales_from_Germany.txt",
+      "name": "sales_from_germany.txt"
+    }
+  }
+}
+

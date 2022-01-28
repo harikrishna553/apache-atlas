@@ -1,0 +1,31 @@
+{
+  "entity": {
+    "typeName": "merger_process",
+    "attributes": {
+      "owner": "Krishna Maj",
+      "outputs": [
+        {
+          "guid": "95324b7d-e6f9-4fa7-a2a4-83c194beba54",
+          "typeName": "DataSet"
+        }
+      ],
+      "qualifiedName": "mergeSalesDaily@file_merge",
+      "displayName": "Merge Sales",
+      "inputs": [
+        {
+          "guid": "19e1b839-bf0e-450d-8bdd-2e44b00ea87c",
+          "typeName": "DataSet"
+        },
+        {
+          "guid": "3508b7bf-ad31-48ed-9013-030d9c3d10e8",
+          "typeName": "DataSet"
+        }
+      ],
+      "description": "Daily merge sales data to global sales file",
+      "name": "mergeSalesDailyFromGermanyCanada",
+      "startTime": 1643363556,
+      "endTime": 1643364556,
+      "processId":"salesMergeProcessGermanyCanada"
+    }
+  }
+}

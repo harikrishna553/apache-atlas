@@ -1,0 +1,12 @@
+{
+  "entity": {
+    "typeName": "DataSet",
+    "attributes": {
+      "owner": "Krishna Maj",
+      "qualifiedName": "global sales Germany canada",
+      "description": "global sales germany canada",
+      "name": "global_sales.txt"
+    }
+  }
+}
+

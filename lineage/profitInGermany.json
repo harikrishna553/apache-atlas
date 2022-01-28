@@ -1,0 +1,12 @@
+{
+  "entity": {
+    "typeName": "DataSet",
+    "attributes": {
+      "owner": "Krishna Maj",
+      "qualifiedName": "profit_in_Germany",
+      "description": "profit in Germany",
+      "name": "profit_in_Germany.txt"
+    }
+  }
+}
+

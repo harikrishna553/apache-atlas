@@ -1,0 +1,31 @@
+{
+  "entity": {
+    "typeName": "map_reduce_process",
+    "attributes": {
+      "owner": "Krishna Maj",
+      "outputs": [
+        {
+          "guid": "7012df53-a1e6-464d-a407-39e04714cf8d",
+          "typeName": "DataSet"
+        },
+        {
+          "guid": "f1646aa0-5144-4e74-9907-6c1e6b96fdbf",
+          "typeName": "DataSet"
+        }
+      ],
+      "qualifiedName": "mapReduceProcess@mapReduceGermanyCanada",
+      "displayName": "Map Reduce sales Germany Canada",
+      "inputs": [
+        {
+          "guid": "95324b7d-e6f9-4fa7-a2a4-83c194beba54",
+          "typeName": "DataSet"
+        }
+      ],
+      "description": "map reduce sales daily in Germany, canada",
+      "name": "map reduce sales daily in Germany, canada",
+      "startTime": 1643363556,
+      "endTime": 1643364556,
+      "processId":"mapReduceProcess"
+    }
+  }
+}
