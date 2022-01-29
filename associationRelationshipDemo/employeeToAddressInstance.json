@@ -1,0 +1,12 @@
+{
+  "typeName": "Employee_To_Address",
+  "end1": {
+    "guid": "0af59543-335f-4d71-ab2d-1263ae6c3dc1",
+    "typeName": "Employee"
+  },
+  "end2": {
+    "guid": "776deaa1-4db9-4c92-83cf-a631b5594113",
+    "typeName": "Address"
+  },
+  "label": "rel-between-emp-address"
+}

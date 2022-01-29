@@ -1,0 +1,53 @@
+{
+  "entityDefs": [
+    {
+      "category": "ENTITY",
+      "name": "Address",
+      "description": "Used to model an employee",
+      "superTypes": [
+        "DataSet"
+      ],
+      "subTypes": [],
+      "relationshipAttributeDefs": [],
+      "businessAttributeDefs": {},
+      "attributeDefs": [
+        {
+          "name": "city",
+          "typeName": "string",
+          "isOptional": false,
+          "cardinality": "SINGLE",
+          "valuesMinCount": 0,
+          "valuesMaxCount": 1,
+          "isUnique": false,
+          "isIndexable": false,
+          "includeInNotification": false,
+          "searchWeight": -1
+        },
+        {
+          "name": "addressline",
+          "typeName": "string",
+          "isOptional": false,
+          "cardinality": "SINGLE",
+          "valuesMinCount": 0,
+          "valuesMaxCount": 1,
+          "isUnique": false,
+          "isIndexable": false,
+          "includeInNotification": false,
+          "searchWeight": -1
+        },
+        {
+          "name": "country",
+          "typeName": "long",
+          "isOptional": false,
+          "cardinality": "SINGLE",
+          "valuesMinCount": 0,
+          "valuesMaxCount": 1,
+          "isUnique": false,
+          "isIndexable": false,
+          "includeInNotification": false,
+          "searchWeight": -1
+        }
+      ]
+    }
+  ]
+}

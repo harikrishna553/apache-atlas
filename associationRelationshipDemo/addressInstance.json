@@ -1,0 +1,13 @@
+{
+  "entity": {
+    "typeName": "Address",
+    "attributes": {
+      "name": "Krishna Address",
+      "createTime": 1643363556,
+      "qualifiedName": "krishna_majety123_address",
+      "city": "Bangalore",
+      "country": 91,
+      "addressline": "Chowdeswari street, Basavanagar"
+    }
+  }
+}

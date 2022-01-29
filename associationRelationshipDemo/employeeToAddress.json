@@ -1,0 +1,23 @@
+{
+  "relationshipDefs": [
+    {
+      "category": "RELATIONSHIP",
+      "name": "Employee_To_Address",
+      "description": "Specifies the relationship between employee and address",
+      "attributeDefs": [],
+      "relationshipCategory": "ASSOCIATION",
+      "endDef1": {
+        "type": "Employee",
+        "name": "address_info",
+        "isContainer": false,
+        "cardinality": "SINGLE"
+      },
+      "endDef2": {
+        "type": "Address",
+        "name": "employee_details",
+        "isContainer": false,
+        "cardinality": "SINGLE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "entityDefs": [
+    {
+      "category": "ENTITY",
+      "name": "Employee",
+      "description": "Used to model an employee",
+      "superTypes": [
+        "DataSet"
+      ],
+      "subTypes": [],
+      "relationshipAttributeDefs": [],
+      "businessAttributeDefs": {},
+      "attributeDefs": [
+        {
+          "name": "first_name",
+          "typeName": "string",
+          "isOptional": true,
+          "cardinality": "SINGLE",
+          "valuesMinCount": 0,
+          "valuesMaxCount": 1,
+          "isUnique": false,
+          "isIndexable": false,
+          "includeInNotification": false,
+          "searchWeight": -1
+        },
+        {
+          "name": "last_name",
+          "typeName": "string",
+          "isOptional": true,
+          "cardinality": "SINGLE",
+          "valuesMinCount": 0,
+          "valuesMaxCount": 1,
+          "isUnique": false,
+          "isIndexable": false,
+          "includeInNotification": false,
+          "searchWeight": -1
+        },
+        {
+          "name": "id",
+          "typeName": "long",
+          "isOptional": true,
+          "cardinality": "SINGLE",
+          "valuesMinCount": 0,
+          "valuesMaxCount": 1,
+          "isUnique": false,
+          "isIndexable": false,
+          "includeInNotification": false,
+          "searchWeight": -1
+        }
+      ]
+    }
+  ]
+}

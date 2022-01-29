@@ -1,0 +1,14 @@
+{
+  "entity": {
+    "typeName": "Employee",
+    "attributes": {
+      "name": "Krishna Majety",
+      "createTime": 1643363556,
+      "qualifiedName": "krishna_majety123",
+      "displayName": "Krishna Majety",
+      "first_name": "krishna",
+      "last_name": "Majety",
+      "id": 1234
+    }
+  }
+}
